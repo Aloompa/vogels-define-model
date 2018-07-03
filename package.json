@@ -1,5 +1,5 @@
 {
-  "name": "vogels-define-model",
+  "name": "@aloompa/vogels-define-model",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
