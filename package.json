@@ -1,0 +1,17 @@
+{
+  "name": "vogels-define-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aloompa",
+  "license": "ISC",
+  "devDependencies": {
+    "vogels-promisified": "^2.2.4"
+  },
+  "peerDependencies": {
+    "vogels-promisified": "^2"      
+  }
+}
