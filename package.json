@@ -2,16 +2,18 @@
   "name": "@aloompa/vogels-define-model",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
+    "prepublish": "node_modules/.bin/tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aloompa",
   "license": "ISC",
   "devDependencies": {
+    "vogels": "^2.2.0",
     "vogels-promisified": "^2.2.4"
   },
   "peerDependencies": {
-    "vogels-promisified": "^2"      
+    "vogels-promisified": "^2"
   }
 }
